@@ -15,7 +15,6 @@ public class QuizActivity extends AppCompatActivity {
     private Button mNextButton;
     private Button mPrevButton;
     private TextView mQuestionTextView;
-
     private Question[] mQuestionBank = new Question[] {
             new Question(R.string.question_australia, true),
             new Question(R.string.question_oceans, true),
